@@ -1,17 +1,35 @@
-# Welcome to MkDocs
+---
+hide:
+  - navigation
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Welcome to my recent **Projects**
 
-## Commands
+## Deputy Warehouse Game
+<br>
+<div class="iframe-container">
+    <iframe id="myIframe" src="https://www.deputygame.com/" width="100%" height="100%" style="border:none;"></iframe>
+</div>
+<br>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    dsfal
+    sdfafdsadsfa
+
+<br>
+<button id="myButton">Send Order Request</button>
+
+<div id="emailPopup" class="popup">
+    <div class="popup-content">
+        <span class="close-button">&times;</span>
+        <h2>Geben Sie Ihre E-Mail-Adresse ein</h2>
+        <input type="email" id="emailInput" placeholder="Ihre E-Mail-Adresse">
+        <button id="sendEmailButton">Absenden</button>
+    </div>
+</div>
 
 ## Project layout
-
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
